@@ -1,0 +1,107 @@
+body{
+	font-family: "Roboto Mono";
+	margin: 30px;
+	width: 1000px;
+	height: auto;
+}
+
+.botoesSemBorda {
+	outline-style: none;
+	border: none;
+	background: none;
+	position: relative;
+	float: right;
+	font-size: 25px;
+	cursor: pointer;
+	color: #a5a5a5;
+	top: -90px;
+	display:inline-block;
+    padding: none;
+    margin: 20px;
+    margin-right: 0 auto;
+    font-family:"Roboto Mono"; 
+}
+
+button:hover{
+	color: white;
+	background-color: #6052ad;
+	border-radius: 50px;
+}
+
+.botoesComBorda{
+    background-color:#c9bfe5;
+    position: relative;
+    border-radius: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    font-family:"Roboto Mono"; 
+    }
+
+#signUp{
+	float: right;
+	display: inline-block;
+	top: -100px;
+	margin-right: 0 auto;
+	margin: 20px;
+	width: 140px;
+}
+
+#saberMais{
+	position: relative;
+	display: inline-block;
+	color: white;
+	opacity: 90%;
+	width: 195px;
+	float: left;
+	margin: 30px;
+	top: -100px;
+	font-weight: bold;
+}
+
+img{
+	position: relative;
+	display: inline-block;
+	top: 60px;
+	float: right;
+	margin:40px;
+	width: 80%;
+	height: auto;
+}
+
+#logo{
+	margin: 30px;
+	top: 30px;
+	font-weight: bold;
+}
+
+#digital{
+	position: relative;
+	display: flex;
+	font-weight: bold;
+	font-size: 120px;
+	color: #1d374b;
+	margin: 30px;
+	top: 120px;
+}
+
+#marketing{
+	position: relative;
+	display: flex;
+	font-size: 60px;
+	letter-spacing: 20px;
+	color: #f89e0e;
+	top: 140px;
+	margin: 30px;
+	line-height: 30px;
+}
+
+#texto{
+	position: relative;
+	display: inline-flex;
+	color: #d1d1d1;
+	top: 120px;
+	line-height: 35px;
+	margin: 30px;
+}
